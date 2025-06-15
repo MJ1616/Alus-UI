@@ -1,17 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import SchedulePlanner from './SchedulePlanner';
+import './main.css'; // or './index.css' for your own styles
 
-function App() {
-  return (
-      <h1>Hello, World!</h1>
-  );
-}
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <SchedulePlanner />
   </React.StrictMode>
 );
-
-
